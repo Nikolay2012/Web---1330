@@ -1,0 +1,91 @@
+
+body{
+    background-image: url(image/fon4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+h1, p{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 4%;
+}
+h1{
+    font-size: 300%;
+    color:#b40191;
+    text-shadow: 1px 1px 1px black;
+}
+h2{
+    font-size: 300%;
+    color: #b40191;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+footer p{
+    margin-top: 0;
+}
+p{
+    font-size: 100%;   
+}
+header p{
+    margin-top: 1%;
+}
+.button{
+    text-decoration: none;
+    font-size: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #eb9e1c;
+    color: #ffffff;
+    text-shadow: 1px 2px 2px black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
+}
+.instagram{
+    font-size: 120%; 
+}
+.main div{
+    width: 500px;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;  
+}
+.main div:first-child{
+    margin-right: 15%;  
+}
+.main{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main p{
+    margin-top: 20px;
+}
+main .main .text-main h3{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 200%;
+    color: #b40191;
+    text-shadow: 1px 1px 1px black;
+}
+main .main .text-main p{
+    text-align: justify;
+    font-size: 120%;
+}
+main .main .text-main p a{
+    float: right;
+}
+main .main .main-img{
+    height: 400px;
+    background-image: url(image/fon1.png);
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

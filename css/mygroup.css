@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+    color: #b40191;
+    text-shadow: 1px 2px 2px black;
+}
+h3{
+    font-size: 250%;
+    color: #b40191;
+    text-shadow: 1px 1px 1px black;
+}
+body{
+    background-image: url(image/fon4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.moveLeft{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+.moveLeft .image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: #b40191;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main-content div{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+}
+.text{
+    border-bottom: 5px solid #b40191;
+}
+.text p{
+    width: 80%;
+    text-align: left;
+    margin-left:  10%;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    font-size: 120%;
+}
+.text p span{
+    font-size: 150%;
+}
+.img-alex{
+    background-image: url(image/foto/alexander.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+}
+.img-egor{
+    background-image: url(image/foto/egor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+}
+.img-tim{
+    background-image: url(image/foto/timur.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+}
+.img-vya{
+    background-image: url(image/foto/vyacheslav.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+}
+.img-kir{
+    background-image: url(image/foto/kirill.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+}
+.img-rom{
+    background-image: url(image/foto/roma.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;  
+}
+.img-dav{
+    background-image: url(image/foto/david.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+    background-color: lawngreen;
+}
